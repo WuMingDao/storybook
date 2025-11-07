@@ -60,6 +60,7 @@ export const installYarn2 = async ({ cwd, dryRun, debug }: YarnOptions) => {
     // Use the global cache so we aren't re-caching dependencies each time we run sandbox
     `yarn config set enableGlobalCache true`,
     `yarn config set checksumBehavior ignore`,
+    `yarn config set enableScripts false`,
   ];
 
   if (!pnpApiExists) {
