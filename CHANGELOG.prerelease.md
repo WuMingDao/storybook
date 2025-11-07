@@ -1,3 +1,7 @@
+## 10.1.0-alpha.8
+
+- ESLint: Only apply csf-strict rules on stories files - [#31963](https://github.com/storybookjs/storybook/pull/31963), thanks @cylewaitforit!
+
 ## 10.1.0-alpha.7
 
 - CSF: Fix export interface declaration for NextPreview - [#32914](https://github.com/storybookjs/storybook/pull/32914), thanks @icopp!
